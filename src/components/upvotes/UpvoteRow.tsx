@@ -1,13 +1,13 @@
 import React, { useContext } from "react";
 import cx from "classnames";
 import { AddIcon } from "../Icons";
-import { IconButton } from "../iconButton/IconButton";
+import { IconButton } from "../IconButton";
 import { UpvoteList } from "../../type/Upvote";
 import { UpvoteContext } from "../../context/UpvoteContext";
 import { UpvoteGroup } from "./upvoteGroup/UpvoteGroup";
 
 type UpVoteRowPropsType = {
-  idx: number,
+  idx: number;
   upvotesList: UpvoteList;
   className?: string;
 };

@@ -1,6 +1,5 @@
 import React from "react";
 import cx from "classnames";
-import "./iconButton.css";
 
 type IconButtonPropsType = {
   icon: React.ReactNode;
